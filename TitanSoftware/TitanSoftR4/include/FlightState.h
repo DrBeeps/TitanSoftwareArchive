@@ -1,0 +1,17 @@
+#ifndef FLIGHT_STATE_H
+#define FLIGHT_STATE_H
+
+enum FlightState
+{
+  GROUND_IDLE = 1,
+  POWERED_FLIGHT = 2,
+  UNPOWERED_FLIGHT = 3,
+  BALLISTIC_DESCENT = 4,
+  CHUTE_DESCENT = 5,
+  GROUND_SAFE = 6,
+  ABORT = 7,
+  STATIC_FIRE = 8,
+  STATIC_ABORT = 9
+};
+
+#endif
